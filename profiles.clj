@@ -3,6 +3,9 @@
                   [lein-ancient "0.6.8"]
                   [jonase/eastwood "0.2.3"]
                   [lein-simpleton "1.3.0"]
-                  [lein-kibit "0.1.2"]]
+                  [lein-kibit "0.1.2"]
+                  [lein-codox "0.9.5"]
+                  [lein2-eclipse "2.0.0"]
+                  [lein-marginalia "0.9.0"]]
         :dependencies [[slamhound "1.5.5"]]
         :aliases {"slamhound" ["run" "-m" "slam.hound"]}}} 
