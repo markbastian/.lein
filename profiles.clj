@@ -6,6 +6,7 @@
                   [lein-kibit "0.1.2"]
                   [lein-codox "0.9.5"]
                   [lein2-eclipse "2.0.0"]
-                  [lein-marginalia "0.9.0"]]
+                  [lein-marginalia "0.9.0"]
+                  [lein-set-version "0.4.1"]]
         :dependencies [[slamhound "1.5.5"]]
         :aliases {"slamhound" ["run" "-m" "slam.hound"]}}} 
