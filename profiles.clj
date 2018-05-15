@@ -11,6 +11,7 @@
                   [lein-set-version "0.4.1"]
                   [lein-create-template "0.2.0"]]
         :dependencies [[slamhound "1.5.5"]
+                       [datawalk "0.1.10"]
                        ;[org.clojure/clojure "1.9.0-alpha14"]
                        ]
         :aliases {"slamhound" ["run" "-m" "slam.hound"]}}}
