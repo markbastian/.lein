@@ -9,9 +9,12 @@
                   [hiccup-bridge "1.0.1"]
                   [lein-marginalia "0.9.1"]
                   [lein-set-version "0.4.1"]
-                  [lein-create-template "0.2.0"]]
+                  [lein-create-template "0.2.0"]
+                  [venantius/ultra "0.5.2"]]
         :dependencies [[slamhound "1.5.5"]
                        [datawalk "0.1.10"]
+                       [spyscope "0.1.7-SNAPSHOT"]
                        ;[org.clojure/clojure "1.9.0-alpha14"]
                        ]
-        :aliases {"slamhound" ["run" "-m" "slam.hound"]}}}
+        :aliases {"slamhound" ["run" "-m" "slam.hound"]}
+        :injections [(require 'spyscope.core)]}}
