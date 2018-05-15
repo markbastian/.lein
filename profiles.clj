@@ -14,7 +14,14 @@
         :dependencies [[slamhound "1.5.5"]
                        [datawalk "0.1.10"]
                        [spyscope "0.1.7-SNAPSHOT"]
-                       ;[org.clojure/clojure "1.9.0-alpha14"]
-                       ]
+                       [org.clojure/tools.trace "0.7.9"]
+;                       [jsofra/data-scope "0.1.2"]
+]
         :aliases {"slamhound" ["run" "-m" "slam.hound"]}
-        :injections [(require 'spyscope.core)]}}
+        :injections [(require '[spyscope.core :as spy])
+             (use 'spyscope.repl)
+             ;(require 'data-scope.charts)
+             ;(require 'data-scope.graphs)
+             ;(require 'data-scope.inspect)
+             ;(require 'data-scope.pprint)
+             (use 'clojure.tools.trace)]}}
